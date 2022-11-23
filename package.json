@@ -2,9 +2,11 @@
   "name": "roboclaw-4motortest-node",
   "version": "1.0.0",
   "description": "",
+  
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js 100 100 100 100",
+	"stop": "node index.js 0 0 0 0"
   },
   "keywords": [],
   "author": "",
